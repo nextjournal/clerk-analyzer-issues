@@ -1,0 +1,8 @@
+{:deps
+ {io.github.nextjournal/clerk {:git/sha "edd0c2fc22bd0207cc8d3762f00f239ce63ee87f"}
+
+  latte/latte {:mvn/version "1.0b10-SNAPSHOT"}
+  #_#_
+  io.github.latte-central/LaTTe {:git/sha "521d7f5e02bdec133a251d9dfbdbac6c42481eb7"}
+  potemkin/potemkin {:mvn/version "0.4.6"}
+  com.layerware/hugsql {:mvn/version "0.5.1"}}}
