@@ -5,4 +5,5 @@
   #_#_
   io.github.latte-central/LaTTe {:git/sha "521d7f5e02bdec133a251d9dfbdbac6c42481eb7"}
   potemkin/potemkin {:mvn/version "0.4.6"}
-  com.layerware/hugsql {:mvn/version "0.5.1"}}}
+  com.layerware/hugsql {:mvn/version "0.5.1"}
+  com.rpl/specter {:mvn/version "1.1.4"}}}
