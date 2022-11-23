@@ -6,4 +6,14 @@
   io.github.latte-central/LaTTe {:git/sha "521d7f5e02bdec133a251d9dfbdbac6c42481eb7"}
   potemkin/potemkin {:mvn/version "0.4.6"}
   com.layerware/hugsql {:mvn/version "0.5.1"}
-  com.rpl/specter {:mvn/version "1.1.4"}}}
+  com.rpl/specter {:mvn/version "1.1.4"}}
+
+ :aliases
+ {:libpython-clj
+  {:extra-paths ["py-clj-src"]
+   :extra-deps
+   {clj-python/libpython-clj {:mvn/version "2.020"}}
+   ;; JVM config for JDK17 usage of libpython-clj2
+   :jvm-opts  ["--add-modules" "jdk.incubator.foreign"
+               "--enable-native-access=ALL-UNNAMED"]}}
+ }
